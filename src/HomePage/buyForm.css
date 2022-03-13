@@ -1,0 +1,135 @@
+.buy-card-body{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+    padding: 6px 6px 20px 6px;
+}
+.buy-form-background{
+    background-color: #e4e6eb;
+
+}
+.buy-card-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sell-button-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+.sell-button-inner{
+    /* margin-top:=; */
+    padding: 6px 18px;
+    width: 40%;
+    border-radius: 12px;
+    background: rgb(222,153,33);
+    background: linear-gradient( 90deg , rgba(222,153,33,1) 0%, rgba(243,121,86,1) 100%);
+    border: none;
+}
+.charts-sell-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 12px;
+}
+.buy-card-body-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px 30px;
+}
+.input-display-sellform{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 24px;
+}
+.input-field-sellfrom-inner{
+    /* margin-top: 4%; */
+    padding: 6px 18px;
+    outline: none;
+    color: #1c1e21;
+    background-color: #e4e6eb;
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+}
+.trading-fee-flex{
+    padding-top: 24px;
+
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+.trading-fee-value{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.tax-fee-flex{
+    
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+.tax-fee-value{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.text-sell-form{
+    display: flex;
+    flex-direction: row;
+
+text-align: center;  
+  justify-content: center;
+  padding-top: 24px;
+
+}
+.section-divider-sellform{
+    width: 100%;
+    border: none;
+    height: 1px !important;
+    margin: 0;
+    padding: 0 !important;
+    /* margin-top: 35px; */
+    flex-shrink: 0;
+    margin-bottom: 35px;
+    background-color: #40444A;
+    margin: 0;
+    /* margin-bottom: 30px; */
+}
+.swap-button-inner{
+    margin-top: 24px;
+    padding: 6px 18px;
+    width: 30%;
+    border-radius: 12px;
+    background: rgb(222,153,33);
+    background: linear-gradient( 90deg , rgba(222,153,33,1) 0%, rgba(243,121,86,1) 100%);
+    border: none;
+}
+.swap-button-outer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sell-main-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ padding-top: 50px;
+ padding-bottom: 20px;
+}
+.color-sell{
+   color: rgb(222,153,33);
+
+}

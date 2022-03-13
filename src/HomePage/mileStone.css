@@ -1,0 +1,35 @@
+.heading-milestone{
+    color: #FFFFFF;
+    /* text-align: center; */
+    padding: 40px 60px;
+
+}
+.milestone-card-bacground{
+    background-color: #262250;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    border-radius: 30px;
+    height: 475px;
+    width: 300px;
+}
+.milestone-button-style{
+    margin-top: 2%;
+    padding: 6px 10px;
+    width: 60%;
+    border-radius: 12px;
+    color: white;
+    background: #58acff;
+    /* background: linear-gradient( 90deg , rgba(222,153,33,1) 0%, rgba(243,121,86,1) 100%); */
+    border: none;
+}
+.milestone-cardOne-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.milestone-cardTwo-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
