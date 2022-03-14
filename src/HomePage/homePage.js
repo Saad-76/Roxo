@@ -33,7 +33,6 @@ const HomePage = () => {
       <Video />
       <Partners/>
       <OurCommunity />
-     
       <Footer />
     </div>
   );

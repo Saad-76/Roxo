@@ -8,13 +8,13 @@ import "./footerTwo.css";
 
 const Footer = () => {
   return (
-    <>
-      <div className="footer-outer">
-        <div className="col-md-12 footer-content">
+    <div className="col-sm-12  " style={{overflowX:"hidden"}}>
+     
+        <div className="row ">
           <div className="col-md-4">
-            {/* <img src={FooterLeft} alt="" height="300px" width="300px"/> */}
+            <img src={FooterLeft} alt="" className="img-fluid"/>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 m-auto footer-color">
             <h3>ROXO</h3>
             <div className="d-flex">
               <div>
@@ -38,12 +38,14 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
-            {/* <img src={FooterRight} alt="" height="300px" width="300px"/> */}
+          <div className="col-md-4 ">
+            <div className="col-sm-12 text-right">
+            <img src={FooterRight} alt="" className="img-fluid"/>
+            </div>
           </div>
         </div>
-      </div>
-    </>
+     
+    </div>
   );
 };
 

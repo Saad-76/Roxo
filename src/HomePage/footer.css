@@ -5,3 +5,10 @@
 .footer-content{
     color: white;
 }
+
+.overflow-main{
+    overflow: hidden;
+}
+.footer-color{
+    color: white;
+}
