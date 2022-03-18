@@ -4,17 +4,24 @@ import "./careersHome.css";
 const CareersHome = () => {
   return (
     <>
-      <div className="career-home-background">
-        <div className="col-md-12">
-            <div className="col-md-6 home-content-style">
-            <h3 className="location-heading-style">Locations of Open Positions</h3>
-<div className="careers-button-style">
-                <button className="locations-button-inner-style">Dubai</button>
-                <button className="locations-button-inner-style-second">Pakistan</button>
-                </div>
-       </div>
-            <div className="col-md-6"></div>
+      <div className="careers-home-outer">
+        <h3 className="careers-heading-style">Careers</h3>
+      </div>
+      <div className="col-md-12">
+        <div className="col-md-6 ">
+          <h3 className="careers-drop-down-heading">
+            Locations of Open Positions
+          </h3>
+          <div className="careers-drop-outer">
+            <select className="careers-dropdown">
+              <option selected>Select</option>
+              <option value="Customer"> Dubai</option>
+              <option value="Employee"> Pakistan</option>
+            </select>
+          </div>
         </div>
+
+        <div className="col-md-6"></div>
       </div>
     </>
   );

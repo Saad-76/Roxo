@@ -8,43 +8,41 @@ import "./footerTwo.css";
 
 const Footer = () => {
   return (
-    <div className="col-sm-12  " style={{overflowX:"hidden"}}>
-     
-        <div className="row ">
-          <div className="col-md-4">
-            <img src={FooterLeft} alt="" className="img-fluid"/>
-          </div>
-          <div className="col-md-4 m-auto footer-color">
-            <h3>ROXO</h3>
-            <div className="d-flex">
-              <div>
-                Facebook
-                <BsFacebook size={25} />
-              </div>
-              &nbsp; &nbsp;
-              <div>
-                Instagram <AiOutlineInstagram size={30} />
-              </div>
+    <div className="col-sm-12  " style={{ overflowX: "hidden" }}>
+      <div className="row ">
+        <div className="col-md-4">
+          <img src={FooterLeft} alt="" className="img-fluid" />
+        </div>
+        <div className="col-md-4 m-auto footer-roxo-icons ">
+          <h3>ROXO</h3>
+          <div className="d-flex">
+            <div className="inner-icons-flex-footer">
+              Facebook &nbsp;
+              <BsFacebook size={25} />
             </div>
-            <div className="d-flex">
-              <div>
-                LinkedIn
-                <BsLinkedin size={25} />
-              </div>
-              &nbsp; &nbsp;
-              <div>
-                Google
-                <AiFillGoogleCircle size={30} />
-              </div>
+            &nbsp; &nbsp; &nbsp;
+            <div className="inner-icons-flex-footer">
+              Instagram <AiOutlineInstagram size={30} />
             </div>
           </div>
-          <div className="col-md-4 ">
-            <div className="col-sm-12 text-right">
-            <img src={FooterRight} alt="" className="img-fluid"/>
+          <div className="d-flex">
+            <div className="inner-icons-flex-footer">
+              LinkedIn
+              <BsLinkedin size={25} />
+            </div>
+            &nbsp; &nbsp;
+            <div className="inner-icons-flex-footer">
+              Google
+              <AiFillGoogleCircle size={30} />
             </div>
           </div>
         </div>
-     
+        <div className="col-md-4 ">
+          <div className="col-sm-12 text-right">
+            <img src={FooterRight} alt="" className="img-fluid" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

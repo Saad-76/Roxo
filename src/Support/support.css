@@ -1,4 +1,8 @@
-.support-background-color{
-    background-color: #e4e6eb;
-
+.support-background-color {
+  color: white;
+}
+.support-heading-style {
+  text-align: center;
+  color: white;
+  padding: 60px 0px;
 }

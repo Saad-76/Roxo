@@ -13,12 +13,12 @@ import Footer from "./footer";
 import MileStone from "./mileStone";
 import OurCommunity from "./ourCommunity";
 import GamingNft from "./gamingNft";
-import LegendaryNft from "./legendaryNft";
+// import LegendaryNft from "./legendaryNft";
 import Partners from "./partners";
 
 const HomePage = () => {
   return (
-    <div className="background-color-main">
+    <div className="background-color-main ">
       <Header />
       <SignUp />
       <Login />
@@ -26,12 +26,12 @@ const HomePage = () => {
       <TesCards />
       <Roxo />
       <GamingNft />
-      <LegendaryNft />
+      {/* <LegendaryNft /> */}
       <MileStone />
       <Vision />
       <Play />
       <Video />
-      <Partners/>
+      <Partners />
       <OurCommunity />
       <Footer />
     </div>

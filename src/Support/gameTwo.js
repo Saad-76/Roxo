@@ -8,7 +8,6 @@ const GameTwo = () => {
       <div className="container">
         <div className="col-md-12 gameTwo-main-section ">
           <div className="col-md-6 content-gameTwo-section">
-            {" "}
             <h3>Haste King</h3>
             <p>Real-Time Multiplayer Running Battle</p>
             <p>

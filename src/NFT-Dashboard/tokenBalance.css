@@ -537,4 +537,16 @@
     line-height: 1.8;
     font-family: monterserat;
   }
+  .firstCard-backColor {
+    background-color: #262250;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+    padding: 54px;
+}
+.secondCard-backColor {
+  background-color: #262250;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+  padding: 6px 45px 26px 39px;
+}
 }

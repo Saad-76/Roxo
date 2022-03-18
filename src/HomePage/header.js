@@ -46,7 +46,9 @@ const Header = () => {
           <Link to="/ourgames" className="ourGames">
             Our Games
           </Link>
-          <Link className="marketPlace">Market Place</Link>
+          <Link className="marketPlace" to="/marketPlace">
+            Market Place
+          </Link>
           {/* <Link>
           <div className="hover-coin">
             <img className="glowCoin" src={Glowcoin} height="50px"></img>

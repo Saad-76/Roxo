@@ -18,6 +18,7 @@ import ApplyForm from "./Careers/applyForm";
 import Support from "./Support/support";
 import BuyForm from "./HomePage/buyForm";
 import PortSideBar from "./PortFolio/portSideBar"
+import MarketPlace from "./MarketPlace/marketPlace";
 // import sectionOne from "./PortFolio/sectionOne"
 // import sectionTwo from "./PortFolio/sectionTwo"
 // import sectionThree from "./PortFolio/sectionThree"
@@ -78,6 +79,13 @@ const Routes = () => {
         </Route>
         <Route path="/portfolio" component={PortSideBar}>
           <PortSideBar/>
+        </Route>
+        <Route path="/portfolio" component={PortSideBar}>
+          <PortSideBar/>
+        </Route>
+
+        <Route path="/marketPlace" component={MarketPlace}>
+          <MarketPlace/>
         </Route>
         {/* <Route path="/one">
           <sectionOne/>

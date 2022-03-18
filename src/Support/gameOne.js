@@ -16,8 +16,7 @@ const GameOne = () => {
           />
         </div>
         <div className="col-md-6 content-gameOne-section">
-          {" "}
-          <h3>Haste King</h3>
+                <h3>Haste King</h3>
           <p>Real-Time Multiplayer Running Battle</p>
           <p>
             ROXO is a leading interactive entertainment company for the mobile

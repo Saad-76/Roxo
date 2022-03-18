@@ -19,7 +19,7 @@
     .about-all-content{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         text-align: justify;
         justify-content: center;
     }
@@ -30,7 +30,7 @@
         justify-content: center; 
     }
 .about-background-color{
-    background-color: #e4e6eb;
+  color: white;
 }
 .horizintal-line-about{
     
@@ -38,8 +38,13 @@
         /* margin-top: 16px; */
         /* margin-left: 18px; */
         width: 100%;
-        border-bottom: 8px solid rgb(189, 187, 187);
+        border-bottom: 3px solid #00FF0A;
+
  
+}
+.about-graph-data h4{
+    font-size: 2.0rem;
+
 }
 .percentage-style{
     /* margin-left: 34%; */

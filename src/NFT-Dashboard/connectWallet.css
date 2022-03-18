@@ -80,6 +80,9 @@
     border: none;
     background: none;
 }
+.copy-icon-connect svg{
+    color: white;
+}
 /* .wallet-address-connect{
     border: none;
     width: 120%;

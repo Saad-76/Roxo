@@ -2,14 +2,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding: 50px 20px;
+ 
 }
 .image-gameOne-outer{
     display: flex;
     flex-direction: row;
-    /* align-items: center;
-    justify-content: center; */
+    justify-content: space-around;
 }
 .image-gameOne-inner{
     border-radius: 12px;
@@ -17,10 +15,9 @@
 .content-gameOne-section{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 400px;
-    text-align: justify;
+    align-items: flex-start;
 
+    max-width: 536px;
+    text-align: justify;
     
 }

@@ -126,3 +126,17 @@ font-weight: 600;
     margin-left: 20px;
 
 }
+
+@media screen and (max-width: 900px) {
+    .background-border-converter {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        padding: 30px 13px;
+        /* padding: 50px; */
+        background-color: #262250;
+        border-radius: 12px;
+        /* justify-content: space-around; */
+        box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+    }
+  }

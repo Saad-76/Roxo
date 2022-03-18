@@ -15,6 +15,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #262250;
+    padding: 12px;
+ 
+    border-radius: 40px;
 }
 
 .input-fieds-outer{
@@ -24,13 +28,16 @@
     align-items: center;
 }
 .input-field-inner{
-   
-        border: 1px solid gray;
-    border-radius: 3px;
-    margin-top: 10px;
-    padding: 5px 10px;
-    width: 100%;
+    /* background-color: #262250; */
+     
+    margin-top: 4%;
+    padding: 6px 18px;
     outline: none;
+    color: #ffffff;
+    background: rgba(88, 88, 88, 0.21);
+    border: none;
+    border-radius: 12px;
+    width: 100%;
  
 }
 .career-form-label{
@@ -47,20 +54,28 @@
 }
 .container-applyForm{
     padding: 2px 251px;
+    color: white;
 }
 .submit-application-button{
     margin-top: 4%; 
     padding: 6px 18px;
     width: 25%;
     border-radius: 12px;
-    background: rgb(222,153,33);
-    background: linear-gradient( 90deg , rgba(222,153,33,1) 0%, rgba(243,121,86,1) 100%);
+    background-color: #58ACFF;
     border: none;
 
 }
 
 .submit-application-heading{
-    padding: 14px 0px;
+    padding: 7px 0px;
+    border-radius: 25px;
+    color: #ffe600;
+    width: 246px;
+    height: 40px;
+    border: 1px solid #ffe600;
+    text-align: center;
+    margin: 11px;
+
 }
 .job-titile-form{
     display: flex;
@@ -70,8 +85,9 @@
     padding: 6px 0px;
 }
 .applyForm-background{
-    background-color: #f0f2f5;
+ height: 100vh;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 .icons-backstyle-two{
     display: flex;
@@ -89,8 +105,7 @@
         padding: 2px 163px;
     }
     .submit-application-button {
-        background: #de9921;
-        background: linear-gradient(90deg,#de9921,#f37956);
+        background-color: #58ACFF;
         border: none;
         border-radius: 12px;
         margin-top: 4%;

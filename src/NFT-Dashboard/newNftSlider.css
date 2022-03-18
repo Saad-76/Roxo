@@ -96,3 +96,18 @@
     box-shadow: 2px 2px 20px rgb(0 0 0 / 20%);
 
 }
+@media screen and (max-width: 900px) {
+  
+        .newNftSlider-view-button-inner {
+            padding: 6px 18px;
+            width: 50%;
+            border-radius: 12px;
+            /* margin: 4% 0; */
+            color: #1c1e21;
+            background-color: #58ACFF;
+            box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+            color: #ffff;
+            border: none;
+        }
+
+  }
