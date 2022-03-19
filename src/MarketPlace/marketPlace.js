@@ -12,7 +12,7 @@ const MarketPlace=()=>{
        <Header/>
         <MarketHeader/>
         <MarketProduct/>
-        <MarketProductDetail/>
+        {/* <MarketProductDetail/> */}
         <Footer/>
         </>
     );

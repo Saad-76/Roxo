@@ -19,6 +19,7 @@ import Support from "./Support/support";
 import BuyForm from "./HomePage/buyForm";
 import PortSideBar from "./PortFolio/portSideBar"
 import MarketPlace from "./MarketPlace/marketPlace";
+import MarketProductDetail from "./MarketPlace/marketProductDetail";
 // import sectionOne from "./PortFolio/sectionOne"
 // import sectionTwo from "./PortFolio/sectionTwo"
 // import sectionThree from "./PortFolio/sectionThree"
@@ -86,6 +87,9 @@ const Routes = () => {
 
         <Route path="/marketPlace" component={MarketPlace}>
           <MarketPlace/>
+        </Route>
+        <Route path="/market_product_detail" component={MarketProductDetail}>
+          <MarketProductDetail/>
         </Route>
         {/* <Route path="/one">
           <sectionOne/>

@@ -45,22 +45,7 @@ const Login = (props) => {
         <Modal.Body className="modal-padding  login-image-style ">
           <div className="col-md-12">
             <div className="login-form-style-roxo">
-              <div className="col-md-6 login-image-side register-button-position ">
-                {/* <h4 className="login-form-heading"> Welcome to ROXO </h4> */}
-                {/* <img
-                    className="login-image"
-                    src={LoginForm }
-                    alt="logologin"
-                    height="250px"
-                    width="250px"
-                  /> */}
-
-                {/* <Link to="/signUp"> */}
-                {/* <button className="register-button-loginForm "  onClick={SignUpHandler}  >
-                      Sign Up!
-                    </button> */}
-                {/* </Link> */}
-              </div>
+              <div className="col-md-6 login-image-side register-button-position "></div>
               <div className="col-md-6 login-form-display">
                 <div className="login-fields-heading-outer">
                   <h3 className="login-fields-heading">Members Log in </h3>

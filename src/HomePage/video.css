@@ -75,4 +75,12 @@
   .primary-video {
     margin-top: 40px;
   }
+  .video_section-style {
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 60%);
+    /* height: 230px; */
+    /* height: 340px; */
+    /* padding-right: 100px; */
+    border-radius: 15px;
+    width: 80%;
+}
 }

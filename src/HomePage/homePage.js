@@ -15,6 +15,7 @@ import OurCommunity from "./ourCommunity";
 import GamingNft from "./gamingNft";
 // import LegendaryNft from "./legendaryNft";
 import Partners from "./partners";
+import Work from "./work";
 
 const HomePage = () => {
   return (
@@ -30,7 +31,8 @@ const HomePage = () => {
       <MileStone />
       <Vision />
       <Play />
-      <Video />
+      {/* <Video /> */}
+      <Work/>
       <Partners />
       <OurCommunity />
       <Footer />

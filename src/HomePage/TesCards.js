@@ -17,8 +17,8 @@ const TesCards = (props) => {
 
   return (
     <>
-      <div className="cards-nav">
-        {/* <img src={Controllers} height='80'/> */}
+    <div className="our-games-outer-pad">
+      <div className="cards-nav game-heading-outer">
         <h1 className="game-heading-cards"> Our Games</h1>
       </div>
 
@@ -62,6 +62,7 @@ const TesCards = (props) => {
         tesheading1="Real PVP running battle "
 
       /> */}
+      </div>
       </div>
     </>
   );

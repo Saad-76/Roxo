@@ -19,7 +19,7 @@ const Play = () => {
         <div className="col-md-6 play-text-style">
           <div className="play-text-data-style">
             <div className="getNow-style" >
-          <h3>Get it Now.</h3>
+          <h3>Get it Now</h3>
           <p className="play-para">The experience on any device(ios, android, desktop)</p>
           </div>
 

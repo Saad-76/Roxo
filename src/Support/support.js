@@ -4,16 +4,16 @@ import Header from "../HomePage/header";
 import Footer from "../HomePage/footer";
 
 import GameOne from "./gameOne";
-import GameTwo from "./gameTwo";
 
 const Support = () => {
   return (
     <>
       <div className="support-background-color">
         <Header />
-<h3 className="support-heading-style">Support</h3>
+        <div className="support-heading-outer">
+          <h3 className="support-heading-style">Support</h3>
+        </div>
         <GameOne />
-        <GameTwo />
         <Footer />
       </div>
     </>

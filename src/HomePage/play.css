@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     /* Padding-top: 80px; */
+    margin: -120px 0px;
+padding-bottom: 40px;
 }
 .play-text-style{
     display: flex;
@@ -94,7 +96,7 @@ flex-direction: row;
   } */
   @media only screen and (max-width: 900px){
     .play-main-style{
-        margin-top: 40px;
+        /* margin-top: 40px; */
       display: flex;
       flex-direction: column;
       align-items: center
@@ -104,5 +106,11 @@ flex-direction: row;
     }
     .play-image-size {
         height: 423px;
+    }
+    .first-buttons-style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
     }
   }

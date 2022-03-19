@@ -9,13 +9,13 @@ import ContactUsIcon from './contactUsIcon';
 const  ContactUs=()=> {
   return (
       <>
-      <div className="contact-background-color">
+      
       <Header/>
       <AboutUs/>
       <ContactUsIcon/>
 <ContactUsForm/>  
 <Footer/> 
-</div>
+
 
       </>
   );

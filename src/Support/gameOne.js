@@ -5,14 +5,14 @@ import GameSlider1 from "../Assests/GameSlider1.jpeg";
 const GameOne = () => {
   return (
     <>
+    <div className="gameOne-outer-pad">
       <div className="col-md-12 gameOne-main-section">
         <div className="col-md-6 image-gameOne-outer ">
           <img
             className="image-gameOne-inner"
             src={GameSlider1}
             alt="image"
-            height="400px"
-            width="500px"
+           
           />
         </div>
         <div className="col-md-6 content-gameOne-section">
@@ -26,6 +26,7 @@ const GameOne = () => {
             are enjoyed all around the world.
           </p>
         </div>
+      </div>
       </div>
     </>
   );

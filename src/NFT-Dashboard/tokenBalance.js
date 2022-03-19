@@ -170,7 +170,8 @@ const TokenBalance = () => {
                   <br />
                   <span className="small-size-words"> 17832.12 ROXO </span>
                 </p>
-                <button className="convert-button-secondCard">
+                <button className="convert-button-secondCard"     data-bs-toggle="modal"
+              data-bs-target="#convertModal">
                   <b>Convert</b>
                 </button>
               </div>

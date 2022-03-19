@@ -38,7 +38,7 @@ const ContactUsIcon = () => {
   };
   return (
     <>
-      <div>
+      <div className="contact-us-outer">
         <h3 className="contact-us-heading">Contact Us</h3>
       </div>
       {/* <p className="contact-react-text">React Us Directly</p>
@@ -95,8 +95,8 @@ const ContactUsIcon = () => {
           <BsBoxArrowInUpRight size={25} />
         </div>
       </div> */}
-      <div>
-        <div className="ourCommunity-outer-section col-md-12">
+      <div className="contact-us-section-pad">
+        <div className="ourCommunity-outer-section  col-md-12">
           <div className="">
             <div className="community-icons col-md-6">
               <div onClick={twitterHandler} type="button">
@@ -126,7 +126,7 @@ const ContactUsIcon = () => {
             </div>
           </div>
           <div className="community-heading col-md-6">
-            <h3>Contact Us</h3>
+            {/* <h3>Contact Us</h3> */}
             {/* <h6>Free to Play, Play to Earn</h6> */}
           </div>
         </div>

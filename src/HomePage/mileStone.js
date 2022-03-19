@@ -1,35 +1,52 @@
 import React from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 import "./mileStone.css";
 
 const MileStone = () => {
   return (
     <>
-      <h1 className="heading-milestone">MileStones</h1>
-      <div className="col-md-12 d-flex">
-        <div className="col-md-4 milestone-cardOne-flex">
-          <div className="milestone-card-bacground">
-            <img src="" alt="" height="300px" width="250px" />
-            <h6>Lorem Ipsm</h6>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button className="milestone-button-style">Lorem</button>
-          </div>
+      <div className="mile-stone-outer">
+        <div className="roadmap-two-heading-outer">
+          <h3 className=" mile-stone-heading">MileStones</h3>
         </div>
-        <div className="col-md-4 milestone-cardTwo-flex">
-          <div className="milestone-card-bacground">
-            <img src="" alt="" height="300px" width="250px" />
-            <h6>Lorem Ipsm</h6>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button className="milestone-button-style">Lorem</button>
-          </div>
-        </div>
-        <div className="col-md-4">
-          <div className="milestone-card-bacground">
-            <img src="" alt="" height="300px" width="250px" />
-            <h6>Lorem Ipsm</h6>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button className="milestone-button-style">Lorem</button>
-          </div>
-        </div>
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: "transparent",
+              color: "#fff",
+              border: "none",
+            }}
+            iconStyle={{ background: "#58ACFF", color: "#fff" }}
+          >
+            <h3 className="vertical-timeline-element-title">MileStone One</h3>
+            <p>Lorem Ipsm</p>
+            <p>Lorem Ipsm</p>
+            <p>
+              Lorem Ipsm Lorem IpsmLorem IpsmLorem IpsmLorem IpsmLorem IpsmLorem
+              IpsmLorem
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: "transparent",
+              color: "#fff",
+              border: "none",
+            }}
+            iconStyle={{ background: "#58ACFF", color: "#fff" }}
+          >
+            <h3 className="vertical-timeline-element-title">MileStone Two</h3>
+            <p>
+              Lorem Ipsm Lorem IpsmLorem IpsmLorem IpsmLorem IpsmLorem IpsmLorem
+              IpsmLorem IpsmLorem IpsmLorem IpsmLorem IpsmLorem IpsmLorem Ipsm
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
       </div>
     </>
   );

@@ -125,12 +125,7 @@
   width: 50%;
   border-radius: 12px;
   background-color: #ffe600;
-  /* background: rgb(222, 153, 33);
-  background: linear-gradient(
-    90deg,
-    rgba(222, 153, 33, 1) 0%,
-    rgba(243, 121, 86, 1) 100%
-  ); */
+
   border: none;
 }
 .login-form-display a {
@@ -156,4 +151,28 @@
   color: white;
   background: none;
   border: none;
+}
+
+@media screen and (max-width: 900px) {
+  .login-image-style {
+    background-image: url("../Assests/LoginForm.jpeg");
+
+    background-size: 0%;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+  .register-button-position {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .login-form-display {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 18%;
+  }
 }

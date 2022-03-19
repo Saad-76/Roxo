@@ -17,9 +17,16 @@
 }
 .partners-content-style{
     color: white;
-    padding: 18px 60px;
+    border-left: 4px solid #c438ef;
+    padding-left: 15px;
+    margin-left: 13vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
 .partners-outer-style{
-   padding: 40px 12px;
+ padding-top: 12px;
+ padding-bottom: 40px;
+ padding-right: 12px;
+ padding-left: 20px;
 }
