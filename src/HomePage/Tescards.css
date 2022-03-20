@@ -229,4 +229,20 @@
   .tes-btn1 {
     display: none;
   }
+  .game-heading-outer {
+    border-left: 0px solid #c438ef;
+    padding-left: 0px;
+    margin-left: 0;
+    margin-top: 0px;
+  }
+  .our-games-outer-pad {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .work-outer-style {
+    padding: 40px 0px;
+    margin-top: 70px;
+  }
 }
