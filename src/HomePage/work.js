@@ -58,13 +58,15 @@ export default function TextMobileStepper() {
   };
 
   return (
-    <div className="work-outer-style">
+    <div className="col-sm-12 work-outer-style">
       <div className="work-heading-style">
         <h3>How It Works?</h3> <p>5 simple steps to earn with ROXO platform!</p>
       </div>
-      <div className="col-md-12 d-flex">
-        <div className="col-md-2"></div>
-        <div className="col-md-8">
+      <div className="row">
+        <div className="col-sm-4"></div>
+        <div className="col-sm-4">
+          <div className="col-sm-12 ">
+          
           <Box sx={{ maxWidth: 800, flexGrow: 1 }}>
             <Paper
               square
@@ -139,9 +141,12 @@ export default function TextMobileStepper() {
               }
             />
           </Box>
+        
+          </div>
         </div>
-        <div className="col-md-2"></div>
+        <div className="col-sm-4"></div>
       </div>
+     
     </div>
   );
 }

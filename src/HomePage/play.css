@@ -94,6 +94,14 @@ flex-direction: row;
     }
 
   } */
+
+
+  .apple-button{
+      height: 10vh;
+  }
+  .playstore-button{
+    height: 10vh;
+}
   @media only screen and (max-width: 900px){
     .play-main-style{
         /* margin-top: 40px; */

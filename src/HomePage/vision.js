@@ -5,17 +5,17 @@ import NFTGamevision from "../Assests/NFT Game vision.png";
 
 const Vision = () => {
   return (
-    <div>
+    <div className="col-sm-12">
       <div className="vision-style">
         <div className="col-md-12 vision-main-style">
-          <div className="col-md-8 vision-image-style">
+          <div className="col-md-7 vision-image-style">
             <img
-              className="vision-image-size"
+              className="img-fluid"
               src={NFTGamevision}
               alt="visionimage"
             />
           </div>
-          <div className="col-md-4 vision-text-style">
+          <div className="col-md-5 vision-text-style">
             <div className="vision-text-data-style">
               {/* <div className="visiion-upper-text"> */}
                 <div className="vision-upper-flex">

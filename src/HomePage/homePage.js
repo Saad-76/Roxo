@@ -36,14 +36,14 @@ const HomePage = () => {
       <Roxo />
       <GamingNft />
       {/* <LegendaryNft />---- already commented */}
-      {/* <MileStone /> */}
-      {/* <Vision /> */}
-      {/* <Play /> */}
+      <MileStone />
+      <Vision />
+      <Play />
       {/* <Video />---- already commented */}
-      {/* <Work/> */}
-      {/* <Partners /> */}
-      {/* <OurCommunity /> */}
-      {/* <Footer /> */}
+      <Work/>
+      <Partners />
+      <OurCommunity />
+      <Footer />
       </div>
     </div>
   );
