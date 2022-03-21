@@ -22,7 +22,6 @@ const ConnectWallet = () => {
             <div className="connect-address-section">
               <div>
                 <p>
-                  {" "}
                   <b> Public Address:</b>
                 </p>
               </div>
@@ -30,8 +29,7 @@ const ConnectWallet = () => {
                 <p> 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2 </p>
               </div>
               <button className="copy-icon-connect">
-                {" "}
-                <ImCopy size={20} />{" "}
+                <ImCopy size={20} />
               </button>
               <div>
                 <button className="wallet-connected-button-style">
