@@ -19,23 +19,32 @@ import Work from "./work";
 
 const HomePage = () => {
   return (
-    <div className="background-color-main ">
+    
+    <div className=" background-color-main ">
+
+    <div className="col-sm-12 p-0" style={{overflow:"hidden"}}>
       <Header />
       <SignUp />
       <Login />
       <Slider />
+
+      <div className="col-sm-12">
+
       <TesCards />
+
+      </div>
       <Roxo />
       <GamingNft />
-      {/* <LegendaryNft /> */}
-      <MileStone />
-      <Vision />
-      <Play />
-      {/* <Video /> */}
-      <Work/>
-      <Partners />
-      <OurCommunity />
-      <Footer />
+      {/* <LegendaryNft />---- already commented */}
+      {/* <MileStone /> */}
+      {/* <Vision /> */}
+      {/* <Play /> */}
+      {/* <Video />---- already commented */}
+      {/* <Work/> */}
+      {/* <Partners /> */}
+      {/* <OurCommunity /> */}
+      {/* <Footer /> */}
+      </div>
     </div>
   );
 };

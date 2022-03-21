@@ -146,6 +146,8 @@
   margin-left: 100px;
   border-radius: 12px;
   box-shadow: 2px 2px 20px rgb(0 0 0 / 20%);
+  height: 100px;
+  width: 100px;
 }
 .gaming-nft-link-button-inner {
   /* margin-top: 2%; */

@@ -16,13 +16,13 @@ const TesCards = (props) => {
   };
 
   return (
-    <>
-    <div className="our-games-outer-pad">
-      <div className="cards-nav game-heading-outer">
+    <div className="col-sm-12">
+    <div className=" col-sm-12 our-games-outer-pad">
+      <div className="col-sm-12 p-0 cards-nav game-heading-outer">
         <h1 className="game-heading-cards"> Our Games</h1>
       </div>
 
-      <div className="tes-card" id="containe">
+      <div className="col-sm-12 p-0 tes-card" id="containe">
         <button onClick={Leftscrol} className="tes-btn">
           <FaArrowLeft size={22.5} />
         </button>
@@ -30,17 +30,19 @@ const TesCards = (props) => {
           <FaArrowRight size={22.5} />
         </button>
 
-        <div className="cards-style-test-data">
+        <div className="col-sm-12 p-0 cards-style-test-data">
           <Tescards
-            tesicon={<img src={GameSlider1} height="150px" />}
+            tesicon={<img src={GameSlider1}  />}
             tesheading="Haste King"
             tesheading1={<p>Real PVP running battle </p>}
             button="View"
             link="/portfolio"
+            className="img-fluid"
           />
           <Tescards
             tesicon={<img src={GameSlider2} />}
             secondHeading="Coming Soon... "
+            className="img-fluid"
             // tesheading1={<p>Coming Soon... </p>}
           />
         </div>
@@ -64,7 +66,7 @@ const TesCards = (props) => {
       /> */}
       </div>
       </div>
-    </>
+    </div>
   );
 };
 

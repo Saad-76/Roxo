@@ -14,7 +14,7 @@ const GamingNft = () => {
     document.getElementById("nftscroll").scrollLeft -= 430;
   };
   return (
-    <>
+    <div className="col-sm-12">
       <div className="gaming-nft-outer gaming-section-pad">
         <div className="gaming_nft">
           <div className="gaming-nft-heading">
@@ -99,67 +99,59 @@ const GamingNft = () => {
               className="image-slider-style"
               src={NFT1}
               alt="nf"
-              height="100px"
-              width="100px"
+              
             />
             <img
               className="image-slider-style"
               src={NFT2}
               alt="nf"
-              height="100px"
-              width="100px"
+              
             />
 
             <img
               className="image-slider-style"
               src={NFT3}
               alt="nf"
-              height="100px"
-              width="100px"
+             
             />
 
             <img
               className="image-slider-style"
               src={NFT4}
               alt="nf"
-              height="100px"
-              width="100px"
+              
             />
 
             <img
               className="image-slider-style"
               src={NFT1}
               alt="nf"
-              height="100px"
-              width="100px"
+              
             />
             <img
               className="image-slider-style"
               src={NFT2}
               alt="nf"
-              height="100px"
-              width="100px"
+              
             />
 
             <img
               className="image-slider-style"
               src={NFT3}
               alt="nf"
-              height="100px"
-              width="100px"
+              
             />
 
             <img
               className="image-slider-style"
               src={NFT4}
               alt="nf"
-              height="100px"
-              width="100px"
+            
             />
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default GamingNft;

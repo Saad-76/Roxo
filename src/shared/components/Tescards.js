@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const Tescards = (props) => {
   return (
-    <div className="colum">
+    <div className=" colum" style={{overflowY:"hidden"}}>
         <div class="tes-scr">
           <div className="tes-icon"><a>{props.tesicon}</a></div>
-         <div className="col-md-12 flex-style-props">
+         <div className="col-md-12 p-0 flex-style-props">
           <div className="col-md-6 first-card-style">
         <h3>
           {props.tesheading}

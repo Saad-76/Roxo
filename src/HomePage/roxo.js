@@ -9,8 +9,8 @@ import "./roxo.css";
 
 const Roxo = () => {
   return (
-    <div>
-      <div className="roxo-style">
+    <div className="col-sm-12">
+      <div className="col-sm-12 roxo-style">
         <div className="col-md-12 roxo-main-style">
           <div className="col-md-6 roxo-text-section">
       
@@ -24,13 +24,13 @@ const Roxo = () => {
               well-built security layers in order to implement the Gamefi
               ecosystem for the mobile platforms.
             </p>
-            <button className="buy-button-style">
+            <button className="btn btn-primary" style={{color:"white"}}>
        
-              <Link to="/buyForm">Buy</Link>
+             <Link to="/buyForm"><b style={{color:"white"}}>Buy</b></Link> 
             </button>
           </div>
           <div className="col-md-6 roxo-image-section">
-            <img src={Coin} alt="roxo" height="400px" width="450px" />
+            <img src={Coin} alt="roxo" className="img-fluid" />
           </div>
         </div>
       </div>
