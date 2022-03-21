@@ -8,8 +8,8 @@ import './footerTwo.css'
 
 const Footer = () => {
   return (
-    <div className="footer col-sm-12  " style={{ overflowX: "hidden" }}>
-        <div className="col-md-4">
+    <div className="footer col-sm-12  p-0 " style={{ overflowX: "hidden" }}>
+        <div className="col-md-4 p-0">
           <img src={FooterLeft} alt="" className="img-fluid" />
         </div>
           <center><div className="col-md-4 m-auto footer-roxo-icons "><h3>ROXO</h3>
@@ -35,8 +35,8 @@ const Footer = () => {
             </div>
           </div>
         </div></center>
-        <div className="col-md-4 ">
-          <div className="col-sm-12 text-right">
+        <div className="col-md-4  p-0">
+          <div className="col-sm-12 pr-0 text-right">
             <img src={FooterRight} alt="" className="img-fluid" />
           </div>
         </div>
